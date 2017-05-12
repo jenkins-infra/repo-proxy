@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def imageName = 'olblak/repo-proxy'
+def imageName = 'jenkinsciinfra/repo-proxy'
 
 properties([
     buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '5')),

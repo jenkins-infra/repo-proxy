@@ -4,7 +4,7 @@
 #
 current_dir = $(shell pwd)
 commit = $(shell git rev-parse HEAD | head -c 6)
-image = "olblak/repo-proxy"
+image = "jenkinsciinfra/repo-proxy"
 
 build: 
 	docker build -t $(image):$(commit) .
