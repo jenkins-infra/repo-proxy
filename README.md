@@ -31,8 +31,8 @@ maven-metadata.xml object should return 200 without HEADER 'X-Cache-Status'
 curl -I http://localhost/snapshots/com/deveo/plugins/deveo/maven-metadata.xml
 ```
 
-! All requests should have return code '200'
+! All requests should return 200 OK
 
 ! Cached requests contain HEADER 'X-Cache-Status':  
-    set to HIT if response get from  cache  
+    set to HIT if response get from cache  
     Set to MISS if response didn't get from cache  
