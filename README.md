@@ -1,4 +1,4 @@
-#README
+# README
 
 repo-proxy is a nginx caching proxy in front of repo.jenkins-ci.org
 
