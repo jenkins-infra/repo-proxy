@@ -5,5 +5,6 @@ LABEL \
   Project="https://github.com/jenkins-infra/repo-proxy" \
   Maintainer="infra@lists.jenkins-ci.org"
 
-COPY conf.d/nginx.conf /etc/nginx/nginx.conf
 COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
+
+VOLUME /var/cache/nginx
